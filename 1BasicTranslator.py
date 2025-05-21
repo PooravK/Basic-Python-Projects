@@ -1,0 +1,47 @@
+animal_dict = {
+    "dog": "犬 (いぬ, inu)",
+    "cat": "猫 (ねこ, neko)",
+    "rabbit": "兎 (うさぎ, usagi)",
+    "bird": "鳥 (とり, tori)",
+    "fish": "魚 (さかな, sakana)",
+    "horse": "馬 (うま, uma)",
+    "cow": "牛 (うし, ushi)",
+    "pig": "豚 (ぶた, buta)",
+    "sheep": "羊 (ひつじ, hitsuji)",
+    "chicken": "鶏 (にわとり, niwatori)",
+    "duck": "鴨 (かも, kamo)",
+    "goat": "山羊 (やぎ, yagi)",
+    "monkey": "猿 (さる, saru)",
+    "elephant": "象 (ぞう, zou)",
+    "lion": "ライオン (raion)",
+    "tiger": "虎 (とら, tora)",
+    "bear": "熊 (くま, kuma)",
+    "deer": "鹿 (しか, shika)",
+    "mouse": "鼠 (ねずみ, nezumi)",
+    "fox": "狐 (きつね, kitsune)",
+    "wolf": "狼 (おおかみ, ookami)",
+    "panda": "パンダ (panda)",
+    "giraffe": "キリン (kirin)",
+    "zebra": "シマウマ (shimauma)",
+    "kangaroo": "カンガルー (kangaruu)",
+    "crocodile": "ワニ (wani)",
+    "turtle": "亀 (かめ, kame)",
+    "frog": "蛙 (かえる, kaeru)",
+    "snake": "蛇 (へび, hebi)",
+    "bat": "蝙蝠 (こうもり, koumori)",
+    "whale": "鯨 (くじら, kujira)",
+    "dolphin": "イルカ (iruka)",
+    "octopus": "蛸 (たこ, tako)",
+    "crab": "蟹 (かに, kani)",
+    "bee": "蜂 (はち, hachi)",
+    "ant": "蟻 (あり, ari)",
+    "spider": "蜘蛛 (くも, kumo)",
+    "penguin": "ペンギン (pengin)",
+    "owl": "梟 (ふくろう, fukurou)",
+    "squirrel": "栗鼠 (りす, risu)"
+}
+print("")
+print("Which animal's name do you want to be translated?\nEnter here:", end = " ")
+inputname = input()
+print("Translation:", end = " ")
+print(animal_dict[inputname])
