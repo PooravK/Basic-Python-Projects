@@ -2,7 +2,7 @@ import random
 
 flag = 1
 count = 1
-guessed = random.randint(0, 10)
+guessed = random.randint(0, 100)
 
 while(flag):
     print("Guess a number between 0 and 100: ", end = "")
